@@ -1,6 +1,9 @@
 <template>
   <header :class="ui.base()">
-    <h1>Aqui vai todo o conteudo do Header</h1>
+    <h2 :class="ui.title()">HemoMap</h2>
+    <div>
+      <Icon name="si:align-justify-fill" />
+    </div>
   </header>
 </template>
 
