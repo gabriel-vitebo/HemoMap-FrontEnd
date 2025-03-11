@@ -8,7 +8,7 @@ import Footer from '~/components/footer/footer.vue';
 <template>
   <Header />
   <Body>
-    <h1>Aqui vai todo o conteudo do Body</h1>
+    <SectionIntroContent />
   </Body>
   <Footer />
 </template>
