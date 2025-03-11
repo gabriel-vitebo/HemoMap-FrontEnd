@@ -13,8 +13,7 @@ export default {
 
 <template>
   <main :class="ui.base()">
-    <slot name="body">
-      <h1></h1>
+    <slot>
     </slot>
   </main>
 </template>
