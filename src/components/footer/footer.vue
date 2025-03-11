@@ -13,6 +13,8 @@ export default {
 
 <template>
   <footer :class="ui.base()">
-    <h1>Aqui vai todo o conteudo do footer</h1>
+    <span>
+      Feito por alunos da Etep
+    </span>
   </footer>
 </template>
