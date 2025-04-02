@@ -1,14 +1,23 @@
 <script lang="ts" setup>
 import heartFallBack from '~/assets/fallback/heart.jpg' 
+import { schema } from './introContent.schema';
+
+const ui = computed(() => {
+  return schema();
+});
 </script>
 
 <template>
-  <div class="flex flex-col w-full gap-8">
-    <div class="relative w-full h-96 overflow-hidden">
-      <img :src="heartFallBack" alt="Banner de doação" class="size-full object-cover">
+  <div :class="ui.base()">
+    <div :class="ui.banner()">
+      <img 
+        :src="heartFallBack" 
+        alt="Banner de doação" 
+        :class="ui.bannerImage()"
+      >
       <div 
-        class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white drop-shadow-[2px_2px_4px_rgba(0,0,0,0.5)]">
-        <h1 class="text-4xl mb-4">Faça a Diferença</h1>
+        :class="ui.bannerContent()">
+        <h1 :class="ui.bannerContentTitle()">Faça a Diferença</h1>
         <p>Sua doação pode transformar vidas</p>
       </div>
     </div>
