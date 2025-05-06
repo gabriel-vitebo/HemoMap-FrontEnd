@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles can be added here */
+body {
+  font-family: 'Inter', sans-serif; /* Example: Using a common sans-serif font */
+  @apply bg-gray-50 text-gray-800;
+}
+
+.container {
+  @apply px-4;
+}
+
