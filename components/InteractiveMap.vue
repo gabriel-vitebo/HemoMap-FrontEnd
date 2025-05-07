@@ -32,7 +32,7 @@
       </l-map>
     </client-only>
     <div v-if="!mapReady" class="flex items-center justify-center h-full bg-gray-100">
-        <p class="text-gray-600 text-lg">Loading map...</p>
+        <p class="text-gray-600 text-lg">Carregando mapa...</p>
     </div>
   </div>
 </template>

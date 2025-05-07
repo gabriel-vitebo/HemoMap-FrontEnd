@@ -2,58 +2,58 @@
   <div class="min-h-screen flex flex-col">
     <AppHeader />
     <main class="flex-grow container mx-auto py-10 px-4">
-      <h1 class="text-4xl font-bold mb-8 text-center text-red-600">Blood Donation Eligibility Checker</h1>
-      <p class="text-lg text-gray-700 mb-8 text-center max-w-2xl mx-auto">Answer the following questions to get a preliminary idea of your eligibility to donate blood. Please note that this is not a definitive assessment. Final eligibility will be determined by the staff at the donation center on the day of donation. Honesty in your answers is crucial for your safety and the safety of potential recipients.</p>
+      <h1 class="text-4xl font-bold mb-8 text-center text-red-600">Verificador de Elegibilidade para Doação de Sangue</h1>
+      <p class="text-lg text-gray-700 mb-8 text-center max-w-2xl mx-auto">Responda às seguintes perguntas para ter uma ideia preliminar sobre sua elegibilidade para doar sangue. Observe que esta não é uma avaliação definitiva. A elegibilidade final será determinada pela equipe do centro de doação no dia da doação. A honestidade em suas respostas é crucial para sua segurança e a segurança dos potenciais receptores.</p>
 
       <form @submit.prevent="checkEligibility" class="max-w-xl mx-auto bg-white p-8 shadow-xl rounded-lg space-y-6">
         <EligibilityQuestion
           questionId="age"
-          questionText="Are you between 18 and 65 years old?"
+          questionText="Você tem entre 18 e 65 anos?"
           v-model="answers.age"
         />
         <EligibilityQuestion
           questionId="weight"
-          questionText="Do you weigh at least 110 pounds (50 kg)?"
+          questionText="Você pesa pelo menos 50 kg?"
           v-model="answers.weight"
         />
         <EligibilityQuestion
           questionId="health"
-          questionText="Are you in good general health and feeling well today?"
+          questionText="Você está em boa saúde geral e se sentindo bem hoje?"
           v-model="answers.health"
         />
         <EligibilityQuestion
           questionId="recent_illness"
-          questionText="Have you had a fever, cold, flu, or sore throat in the last 48 hours?"
+          questionText="Você teve febre, resfriado, gripe ou dor de garganta nas últimas 48 horas?"
           v-model="answers.recent_illness"
           isNegativeQuestion="true" 
         />
         <EligibilityQuestion
           questionId="recent_tattoo_piercing"
-          questionText="Have you had a tattoo, piercing, or acupuncture in the last 6 months from an unregulated facility?"
+          questionText="Você fez uma tatuagem, piercing ou acupuntura nos últimos 6 meses em um local não regulamentado?"
           v-model="answers.recent_tattoo_piercing"
           isNegativeQuestion="true"
         />
         <EligibilityQuestion
           questionId="recent_travel"
-          questionText="Have you traveled to certain malaria-risk countries in the last 12 months? (If unsure, please check with the donation center)"
+          questionText="Você viajou para países com risco de malária nos últimos 12 meses? (Se não tiver certeza, consulte o centro de doação)"
           v-model="answers.recent_travel"
           isNegativeQuestion="true"
         />
         <EligibilityQuestion
           questionId="medications"
-          questionText="Are you currently taking any medications that might prevent donation (e.g., certain antibiotics, blood thinners)? (If unsure, please consult the donation center or your doctor)"
+          questionText="Você está tomando algum medicamento que possa impedir a doação (por exemplo, certos antibióticos, anticoagulantes)? (Se não tiver certeza, consulte o centro de doação ou seu médico)"
           v-model="answers.medications"
           isNegativeQuestion="true"
         />
         <EligibilityQuestion
           questionId="hiv_risk"
-          questionText="Have you ever tested positive for HIV or engaged in activities that put you at high risk for HIV infection?"
+          questionText="Você já testou positivo para HIV ou participou de atividades que o colocam em alto risco de infecção por HIV?"
           v-model="answers.hiv_risk"
           isNegativeQuestion="true"
         />
 
         <button type="submit" class="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-lg transition-colors duration-300 text-lg">
-          Check My Eligibility
+          Verificar Minha Elegibilidade
         </button>
       </form>
 
@@ -63,12 +63,12 @@
         </h2>
         <p class="text-gray-800 leading-relaxed">{{ eligibilityResult.message }}</p>
         <p v-if="!eligibilityResult.eligible && eligibilityResult.reasons.length > 0" class="mt-4 text-gray-700">
-          <strong>Potential reasons for deferral based on your answers:</strong>
+          <strong>Possíveis razões para adiamento com base em suas respostas:</strong>
           <ul class="list-disc list-inside ml-4 mt-2">
             <li v-for="reason in eligibilityResult.reasons" :key="reason">{{ reason }}</li>
           </ul>
         </p>
-        <p class="mt-4 text-sm text-gray-600">Remember, this is a preliminary check. Please consult with the blood donation center staff for a final determination.</p>
+        <p class="mt-4 text-sm text-gray-600">Lembre-se, esta é uma verificação preliminar. Consulte a equipe do centro de doação de sangue para uma determinação final.</p>
       </div>
 
     </main>

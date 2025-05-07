@@ -2,40 +2,40 @@
   <div>
     <AppHeader />
     <main class="container mx-auto py-8 px-4">
-      <h1 class="text-4xl font-bold mb-8 text-center text-red-600">Frequently Asked Questions (FAQ)</h1>
+      <h1 class="text-4xl font-bold mb-8 text-center text-red-600">Perguntas Frequentes (FAQ)</h1>
 
       <div class="space-y-6">
         <FAQItem
-          question="Who can donate blood?"
-          answer="Most healthy adults between the ages of 18 and 65 can donate blood. Specific eligibility criteria can vary by location and blood center, but generally, you must weigh at least 110 pounds (50 kg), be in good general health, and not have certain medical conditions or be taking certain medications. It is always best to check with your local blood donation center for their specific requirements before you plan to donate. They will conduct a mini-health check to ensure you are fit to donate on the day."
+          question="Quem pode doar sangue?"
+          answer="A maioria dos adultos saudáveis entre 18 e 65 anos pode doar sangue. Os critérios específicos de elegibilidade podem variar de acordo com a localização e o centro de doação de sangue, mas, geralmente, você deve pesar pelo menos 50 kg, estar em boa saúde geral e não ter certas condições médicas ou estar tomando certos medicamentos. É sempre melhor verificar com o centro de doação de sangue local os requisitos específicos antes de planejar sua doação. Eles realizarão um mini-check-up de saúde para garantir que você está apto a doar no dia."
         />
         <FAQItem
-          question="How often can I donate blood?"
-          answer="For whole blood donation, you can typically donate every 56 days (8 weeks). For other types of donations, like platelets or plasma, the frequency can be different. For example, platelet donors can often donate every 7 days, up to 24 times a year. Double red cell donors may need to wait 112 days. The specific interval depends on the type of donation and the policies of the donation center. Regular donation is encouraged to maintain a stable blood supply."
+          question="Com que frequência posso doar sangue?"
+          answer="Para doação de sangue total, você pode doar normalmente a cada 56 dias (8 semanas). Para outros tipos de doações, como plaquetas ou plasma, a frequência pode ser diferente. Por exemplo, doadores de plaquetas podem doar frequentemente a cada 7 dias, até 24 vezes por ano. Doadores de glóbulos vermelhos duplos podem precisar esperar 112 dias. O intervalo específico depende do tipo de doação e das políticas do centro de doação. Doações regulares são incentivadas para manter um fornecimento estável de sangue."
         />
         <FAQItem
-          question="Is donating blood safe?"
-          answer="Yes, donating blood is very safe. All needles and blood collection bags are sterile, used only once, and then discarded. The staff are professionally trained to ensure the safety and comfort of the donor. You cannot get any infectious diseases, including HIV/AIDS, by donating blood. The donation process itself is also monitored to ensure your well-being."
+          question="Doar sangue é seguro?"
+          answer="Sim, doar sangue é muito seguro. Todas as agulhas e bolsas de coleta de sangue são estéreis, usadas apenas uma vez e depois descartadas. A equipe é profissionalmente treinada para garantir a segurança e o conforto do doador. Você não pode contrair nenhuma doença infecciosa, incluindo HIV/AIDS, ao doar sangue. O próprio processo de doação também é monitorado para garantir seu bem-estar."
         />
         <FAQItem
-          question="How long does the blood donation process take?"
-          answer="The entire process, from registration to post-donation refreshments, usually takes about an hour. The actual blood donation part, where the needle is in your arm, only lasts about 8-10 minutes for a whole blood donation. Apheresis donations (platelets, plasma, red cells) can take longer, typically 1.5 to 2 hours. Plan to spend a little extra time for your first donation as registration might take a bit longer."
+          question="Quanto tempo leva o processo de doação de sangue?"
+          answer="Todo o processo, desde o registro até os lanches pós-doação, geralmente leva cerca de uma hora. A parte real da doação de sangue, onde a agulha está no seu braço, dura apenas cerca de 8-10 minutos para uma doação de sangue total. Doações por aférese (plaquetas, plasma, glóbulos vermelhos) podem levar mais tempo, normalmente de 1,5 a 2 horas. Planeje gastar um pouco mais de tempo na sua primeira doação, pois o registro pode levar um pouco mais."
         />
         <FAQItem
-          question="What should I do before donating blood?"
-          answer="Before donating blood, it's important to get a good night's sleep, eat a healthy meal (avoiding fatty foods), and drink plenty of fluids (water or juice) in the 24 hours leading up to your donation. Bring a photo ID with you. If you are a platelet donor, you should not take aspirin or products containing aspirin for at least 48 hours before your donation. Inform the staff of any medications you are currently taking."
+          question="O que devo fazer antes de doar sangue?"
+          answer="Antes de doar sangue, é importante ter uma boa noite de sono, comer uma refeição saudável (evitando alimentos gordurosos) e beber bastante líquido (água ou suco) nas 24 horas que antecedem a doação. Leve um documento de identidade com foto. Se você for um doador de plaquetas, não deve tomar aspirina ou produtos que contenham aspirina por pelo menos 48 horas antes da doação. Informe a equipe sobre quaisquer medicamentos que você esteja tomando."
         />
         <FAQItem
-          question="What should I do after donating blood?"
-          answer="After donating, you should rest for about 10-15 minutes and have some refreshments provided by the center. Drink extra fluids for the next 24-48 hours. Avoid strenuous physical activity or heavy lifting for the rest of the day. If you feel dizzy or lightheaded, lie down or sit with your head between your knees until the feeling passes. Keep the bandage on your arm for a few hours, and clean the area gently later. If you experience any bruising, apply a cold pack initially, then warm compresses later."
+          question="O que devo fazer após doar sangue?"
+          answer="Após doar, você deve descansar por cerca de 10-15 minutos e aproveitar os lanches fornecidos pelo centro. Beba líquidos extras nas próximas 24-48 horas. Evite atividades físicas extenuantes ou levantar peso no restante do dia. Se sentir tontura ou fraqueza, deite-se ou sente-se com a cabeça entre os joelhos até que a sensação passe. Mantenha o curativo no braço por algumas horas e limpe a área suavemente mais tarde. Se houver hematomas, aplique uma compressa fria inicialmente e, depois, compressas mornas."
         />
         <FAQItem
-          question="Can I donate blood if I have a cold or flu?"
-          answer="No, you should not donate blood if you have a cold, flu, sore throat, fever, or any other symptoms of illness. Wait until you have fully recovered and have been symptom-free for at least 48 hours before attempting to donate. This is to protect both your health and the health of the recipient."
+          question="Posso doar sangue se estiver com resfriado ou gripe?"
+          answer="Não, você não deve doar sangue se estiver com resfriado, gripe, dor de garganta, febre ou quaisquer outros sintomas de doença. Aguarde até estar completamente recuperado e sem sintomas por pelo menos 48 horas antes de tentar doar. Isso é para proteger tanto sua saúde quanto a saúde do receptor."
         />
-         <FAQItem
-          question="What are the common blood types?"
-          answer="The main blood groups are A, B, AB, and O, each of which can be Rh-positive or Rh-negative. This results in eight common blood types: O+, O-, A+, A-, B+, B-, AB+, and AB-. O-negative is often called the 'universal donor' because it can be given to patients of any blood type in emergencies. AB-positive is known as the 'universal recipient' for plasma donations. Knowing your blood type is helpful, but not required to donate; the blood center will type your blood after your first donation."
+        <FAQItem
+          question="Quais são os tipos sanguíneos mais comuns?"
+          answer="Os principais grupos sanguíneos são A, B, AB e O, cada um dos quais pode ser Rh-positivo ou Rh-negativo. Isso resulta em oito tipos sanguíneos comuns: O+, O-, A+, A-, B+, B-, AB+ e AB-. O tipo O-negativo é frequentemente chamado de 'doador universal' porque pode ser dado a pacientes de qualquer tipo sanguíneo em emergências. O tipo AB-positivo é conhecido como 'receptor universal' para doações de plasma. Saber seu tipo sanguíneo é útil, mas não é necessário para doar; o centro de sangue determinará seu tipo sanguíneo após sua primeira doação."
         />
       </div>
     </main>
