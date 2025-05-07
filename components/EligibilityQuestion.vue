@@ -10,7 +10,7 @@
           @change="updateValue(true)" 
           class="form-radio h-5 w-5 text-red-600 focus:ring-red-500 border-gray-400"
         />
-        <span class="ml-2 text-gray-700">Yes</span>
+        <span class="ml-2 text-gray-700">Sim</span>
       </label>
       <label class="flex items-center cursor-pointer">
         <input 
@@ -20,7 +20,7 @@
           @change="updateValue(false)" 
           class="form-radio h-5 w-5 text-red-600 focus:ring-red-500 border-gray-400"
         />
-        <span class="ml-2 text-gray-700">No</span>
+        <span class="ml-2 text-gray-700">Não</span>
       </label>
     </div>
   </div>

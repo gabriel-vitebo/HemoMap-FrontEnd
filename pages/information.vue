@@ -2,21 +2,21 @@
   <div>
     <AppHeader />
     <main class="container mx-auto py-8 px-4">
-      <h1 class="text-4xl font-bold mb-6 text-center text-red-600">Understanding Blood Donation</h1>
+      <h1 class="text-4xl font-bold mb-6 text-center text-red-600">Entendendo a Doação de Sangue</h1>
 
       <section class="mb-8 p-6 bg-white shadow-lg rounded-lg">
-        <h2 class="text-2xl font-semibold mb-4 text-red-700">Why Donate Blood?</h2>
-        <p class="text-gray-700 leading-relaxed">Blood donation is a noble act that saves lives. Every few seconds, someone, somewhere, needs blood. This could be due to accidents, surgeries, childbirth complications, cancer treatments, or chronic illnesses like sickle cell anemia and thalassemia. A single pint of donated blood can help save up to three lives. By donating blood, you become a vital link in a chain of survival, offering hope and a second chance at life to those in desperate need. The demand for blood is constant, but the supply is not always sufficient, especially for rare blood types. Your voluntary donation ensures that hospitals and emergency services have a readily available supply of safe blood for patients. It's a simple, safe, and profoundly impactful way to contribute to your community and make a tangible difference in the world. Beyond the immediate life-saving benefits for recipients, donors often experience a sense of fulfillment and connection to their community. Regular blood donation can also have health benefits for the donor, such as reducing the risk of certain health conditions and providing a mini-health check-up, as your vital signs are checked before each donation.</p>
+        <h2 class="text-2xl font-semibold mb-4 text-red-700">Por que Doar Sangue?</h2>
+        <p class="text-gray-700 leading-relaxed">A doação de sangue é um ato nobre que salva vidas. A cada poucos segundos, alguém, em algum lugar, precisa de sangue. Isso pode ser devido a acidentes, cirurgias, complicações no parto, tratamentos contra o câncer ou doenças crônicas como anemia falciforme e talassemia. Um único litro de sangue doado pode ajudar a salvar até três vidas. Ao doar sangue, você se torna um elo vital em uma cadeia de sobrevivência, oferecendo esperança e uma segunda chance de vida para aqueles que estão em necessidade desesperadora. A demanda por sangue é constante, mas o fornecimento nem sempre é suficiente, especialmente para tipos sanguíneos raros. Sua doação voluntária garante que hospitais e serviços de emergência tenham um suprimento disponível de sangue seguro para os pacientes. É uma maneira simples, segura e profundamente impactante de contribuir para sua comunidade e fazer uma diferença tangível no mundo. Além dos benefícios imediatos para os receptores, os doadores frequentemente experimentam um senso de realização e conexão com sua comunidade. Doar sangue regularmente também pode trazer benefícios à saúde do doador, como reduzir o risco de certas condições de saúde e fornecer um check-up de saúde rápido, já que seus sinais vitais são verificados antes de cada doação.</p>
       </section>
 
       <section class="mb-8 p-6 bg-white shadow-lg rounded-lg">
-        <h2 class="text-2xl font-semibold mb-4 text-red-700">The Blood Donation Process</h2>
-        <p class="text-gray-700 leading-relaxed">The blood donation process is straightforward and typically takes about an hour from start to finish, with the actual donation lasting only about 8-10 minutes. It begins with registration, where you'll provide some basic information. Next, you'll have a confidential mini-health check, including checking your temperature, pulse, blood pressure, and hemoglobin levels to ensure you're fit to donate. If you meet the criteria, you'll proceed to the donation area. A trained phlebotomist will clean an area on your arm and insert a sterile needle to collect the blood. After the donation, you'll be asked to rest for a short period and enjoy some refreshments to help your body rehydrate and replenish fluids. It's important to drink plenty of fluids and avoid strenuous activity for the rest of the day. Your donated blood will then be tested for various infectious diseases to ensure its safety before being processed and distributed to hospitals.</p>
+        <h2 class="text-2xl font-semibold mb-4 text-red-700">O Processo de Doação de Sangue</h2>
+        <p class="text-gray-700 leading-relaxed">O processo de doação de sangue é simples e geralmente leva cerca de uma hora do início ao fim, com a doação em si durando apenas cerca de 8 a 10 minutos. Começa com o registro, onde você fornecerá algumas informações básicas. Em seguida, você passará por um check-up rápido e confidencial, incluindo a verificação de sua temperatura, pulso, pressão arterial e níveis de hemoglobina para garantir que você está apto a doar. Se você atender aos critérios, seguirá para a área de doação. Um flebotomista treinado limpará uma área do seu braço e inserirá uma agulha estéril para coletar o sangue. Após a doação, você será orientado a descansar por um curto período e aproveitar alguns lanches para ajudar seu corpo a se reidratar e repor os fluidos. É importante beber bastante líquido e evitar atividades extenuantes pelo resto do dia. O sangue doado será então testado para várias doenças infecciosas para garantir sua segurança antes de ser processado e distribuído para hospitais.</p>
       </section>
 
       <section class="p-6 bg-white shadow-lg rounded-lg">
-        <h2 class="text-2xl font-semibold mb-4 text-red-700">Types of Blood Donations</h2>
-        <p class="text-gray-700 leading-relaxed">There are several types of blood donations. The most common is whole blood donation, where you donate about a pint of blood containing red cells, white cells, platelets, and plasma. Another type is apheresis, a special kind of donation that allows a donor to give specific blood components, such as platelets, plasma, or red cells, while the rest of the blood is returned to the donor. Platelet donations (plateletpheresis) are crucial for cancer patients and those undergoing organ transplants. Plasma donations (plasmapheresis) are often used for patients with liver disease, burns, and clotting factor deficiencies. Double red cell donation allows you to donate two units of red blood cells at one time, which is particularly helpful for trauma patients and those with severe anemia. The type of donation you can make may depend on your blood type, physical condition, and the needs of the local blood center.</p>
+        <h2 class="text-2xl font-semibold mb-4 text-red-700">Tipos de Doações de Sangue</h2>
+        <p class="text-gray-700 leading-relaxed">Existem vários tipos de doações de sangue. O mais comum é a doação de sangue total, onde você doa cerca de um litro de sangue contendo glóbulos vermelhos, glóbulos brancos, plaquetas e plasma. Outro tipo é a aférese, um tipo especial de doação que permite ao doador doar componentes específicos do sangue, como plaquetas, plasma ou glóbulos vermelhos, enquanto o restante do sangue é devolvido ao doador. Doações de plaquetas (plaquetaférese) são cruciais para pacientes com câncer e aqueles que estão passando por transplantes de órgãos. Doações de plasma (plasmaférese) são frequentemente usadas para pacientes com doenças hepáticas, queimaduras e deficiências de fatores de coagulação. A doação dupla de glóbulos vermelhos permite que você doe duas unidades de glóbulos vermelhos de uma só vez, o que é particularmente útil para pacientes com traumas e aqueles com anemia grave. O tipo de doação que você pode fazer pode depender do seu tipo sanguíneo, condição física e das necessidades do centro de sangue local.</p>
       </section>
     </main>
     <AppFooter />
@@ -24,14 +24,14 @@
 </template>
 
 <script setup>
-// No specific script needed for this static informational page yet.
-// We might add reactive elements or data fetching later.
+// Nenhum script específico necessário para esta página informativa estática ainda.
+// Podemos adicionar elementos reativos ou busca de dados no futuro.
 import AppHeader from '~/components/AppHeader.vue';
 import AppFooter from '~/components/AppFooter.vue';
 </script>
 
 <style scoped>
-/* Scoped styles for the information page */
+/* Estilos escopados para a página de informações */
 .container {
   max-width: 900px;
 }

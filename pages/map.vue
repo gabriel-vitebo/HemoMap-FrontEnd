@@ -2,8 +2,13 @@
   <div>
     <AppHeader />
     <main class="container mx-auto py-8 px-4">
-      <h1 class="text-4xl font-bold mb-8 text-center text-red-600">Find a Donation Center</h1>
-      <p class="text-lg text-gray-700 mb-8 text-center max-w-2xl mx-auto">Use the interactive map below to find blood donation centers (hemocenters) near your location. Click on a marker to get more information about a center. Please enable location services in your browser for the best experience.</p>
+      <h1 class="text-4xl font-bold mb-8 text-center text-red-600">Encontre Hemocentros perto de você</h1>
+      <p class="text-lg text-gray-700 mb-8 text-center max-w-2xl mx-auto">
+        Use o mapa interativo abaixo para encontrar hemocentros próximos 
+        à sua localização. Clique em um marcador para obter mais informações 
+        sobre um centro. Por favor, ative os serviços de localização 
+        no seu navegador para uma melhor experiência.
+      </p>
       <InteractiveMap />
     </main>
     <AppFooter />
