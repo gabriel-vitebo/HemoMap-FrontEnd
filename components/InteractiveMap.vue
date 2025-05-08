@@ -4,7 +4,7 @@
       <l-map
         ref="map"
         :zoom="zoom"
-        :center="center"
+        :center="centerMap"
         :use-global-leaflet="false"
       >
         <l-tile-layer
@@ -41,6 +41,9 @@
 import { ref, onMounted, defineAsyncComponent } from 'vue';
 import "leaflet/dist/leaflet.css";
 
+import DonationCenterCard from '~/components/DonationCenterCard.vue';
+import { useHemocenters } from '~/composables/useHemocenters';
+
 // Dynamically import LMap, LTileLayer, LMarker, LPopup, LIcon, LControlAttribution, LControlZoom only on client-side
 const LMap = defineAsyncComponent(() => import('@vue-leaflet/vue-leaflet').then(module => module.LMap));
 const LTileLayer = defineAsyncComponent(() => import('@vue-leaflet/vue-leaflet').then(module => module.LTileLayer));
@@ -50,12 +53,9 @@ const LIcon = defineAsyncComponent(() => import('@vue-leaflet/vue-leaflet').then
 const LControlAttribution = defineAsyncComponent(() => import('@vue-leaflet/vue-leaflet').then(module => module.LControlAttribution));
 const LControlZoom = defineAsyncComponent(() => import('@vue-leaflet/vue-leaflet').then(module => module.LControlZoom));
 
-import DonationCenterCard from '~/components/DonationCenterCard.vue';
-import { useHemocenters } from '~/composables/useHemocenters';
-
 const map = ref(null);
 const zoom = ref(6);
-const center = ref([39.9042, 116.4074]); // Default to Beijing, will try to use user's location
+const centerMap = ref([39.9042, 116.4074]); // Default to Beijing, will try to use user's location
 const mapReady = ref(false);
 
 const { hemocenters, fetchHemocenters } = useHemocenters();
@@ -86,10 +86,10 @@ onMounted(async () => {
     navigator.geolocation.getCurrentPosition(
       (position) => {
         const userLocation = [position.coords.latitude, position.coords.longitude];
-        center.value = userLocation;
+        centerMap.value = userLocation;
         zoom.value = 13; // Zoom in when user location is available
         if (map.value && map.value.leafletObject) {
-            map.value.leafletObject.setView(userLocation, 13);
+          map.value.leafletObject.setView(userLocation, 13);
         }
       },
       (error) => {

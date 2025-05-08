@@ -5,51 +5,51 @@
       <h1 class="text-4xl font-bold mb-8 text-center text-red-600">Verificador de Elegibilidade para Doação de Sangue</h1>
       <p class="text-lg text-gray-700 mb-8 text-center max-w-2xl mx-auto">Responda às seguintes perguntas para ter uma ideia preliminar sobre sua elegibilidade para doar sangue. Observe que esta não é uma avaliação definitiva. A elegibilidade final será determinada pela equipe do centro de doação no dia da doação. A honestidade em suas respostas é crucial para sua segurança e a segurança dos potenciais receptores.</p>
 
-      <form @submit.prevent="checkEligibility" class="max-w-xl mx-auto bg-white p-8 shadow-xl rounded-lg space-y-6">
+      <form class="max-w-xl mx-auto bg-white p-8 shadow-xl rounded-lg space-y-6" @submit.prevent="checkEligibility">
         <EligibilityQuestion
-          questionId="age"
-          questionText="Você tem entre 18 e 65 anos?"
           v-model="answers.age"
+          question-id="age"
+          question-text="Você tem entre 18 e 65 anos?"
         />
         <EligibilityQuestion
-          questionId="weight"
-          questionText="Você pesa pelo menos 50 kg?"
           v-model="answers.weight"
+          question-id="weight"
+          question-text="Você pesa pelo menos 50 kg?"
         />
         <EligibilityQuestion
-          questionId="health"
-          questionText="Você está em boa saúde geral e se sentindo bem hoje?"
           v-model="answers.health"
+          question-id="health"
+          question-text="Você está em boa saúde geral e se sentindo bem hoje?"
         />
         <EligibilityQuestion
-          questionId="recent_illness"
-          questionText="Você teve febre, resfriado, gripe ou dor de garganta nas últimas 48 horas?"
           v-model="answers.recent_illness"
-          isNegativeQuestion="true" 
+          question-id="recent_illness"
+          question-text="Você teve febre, resfriado, gripe ou dor de garganta nas últimas 48 horas?"
+          is-negative-question="true" 
         />
         <EligibilityQuestion
-          questionId="recent_tattoo_piercing"
-          questionText="Você fez uma tatuagem, piercing ou acupuntura nos últimos 6 meses em um local não regulamentado?"
           v-model="answers.recent_tattoo_piercing"
-          isNegativeQuestion="true"
+          question-id="recent_tattoo_piercing"
+          question-text="Você fez uma tatuagem, piercing ou acupuntura nos últimos 6 meses em um local não regulamentado?"
+          is-negative-question="true"
         />
         <EligibilityQuestion
-          questionId="recent_travel"
-          questionText="Você viajou para países com risco de malária nos últimos 12 meses? (Se não tiver certeza, consulte o centro de doação)"
           v-model="answers.recent_travel"
-          isNegativeQuestion="true"
+          question-id="recent_travel"
+          question-text="Você viajou para países com risco de malária nos últimos 12 meses? (Se não tiver certeza, consulte o centro de doação)"
+          is-negative-question="true"
         />
         <EligibilityQuestion
-          questionId="medications"
-          questionText="Você está tomando algum medicamento que possa impedir a doação (por exemplo, certos antibióticos, anticoagulantes)? (Se não tiver certeza, consulte o centro de doação ou seu médico)"
           v-model="answers.medications"
-          isNegativeQuestion="true"
+          question-id="medications"
+          question-text="Você está tomando algum medicamento que possa impedir a doação (por exemplo, certos antibióticos, anticoagulantes)? (Se não tiver certeza, consulte o centro de doação ou seu médico)"
+          is-negative-question="true"
         />
         <EligibilityQuestion
-          questionId="hiv_risk"
-          questionText="Você já testou positivo para HIV ou participou de atividades que o colocam em alto risco de infecção por HIV?"
           v-model="answers.hiv_risk"
-          isNegativeQuestion="true"
+          question-id="hiv_risk"
+          question-text="Você já testou positivo para HIV ou participou de atividades que o colocam em alto risco de infecção por HIV?"
+          is-negative-question="true"
         />
 
         <button type="submit" class="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-lg transition-colors duration-300 text-lg">
@@ -77,7 +77,7 @@
 </template>
 
 <script setup>
-import { ref, reactive } from 'vue';
+import { reactive } from 'vue';
 import AppHeader from '~/components/AppHeader.vue';
 import AppFooter from '~/components/AppFooter.vue';
 import EligibilityQuestion from '~/components/EligibilityQuestion.vue';
