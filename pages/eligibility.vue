@@ -101,7 +101,3 @@ const checkEligibility = () => {
 };
 
 </script>
-
-<style scoped>
-/* Scoped styles for the eligibility page */
-</style>

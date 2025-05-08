@@ -1,5 +1,5 @@
 <template>
-  <div style="height: 600px; width: 100%;" class="shadow-lg rounded-lg overflow-hidden">
+  <div class="shadow-lg rounded-lg overflow-hidden h-[600px] w-full">
     <client-only>
       <l-map
         ref="map"
@@ -107,15 +107,3 @@ const openPopup = (centerData) => {
 };
 
 </script>
-
-<style>
-/* Global styles for Leaflet if needed, though scoped is preferred for components */
-.leaflet-popup-content-wrapper {
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-}
-.leaflet-popup-content {
-    margin: 10px !important; /* Override default leaflet popup padding */
-    min-width: 250px;
-}
-</style>

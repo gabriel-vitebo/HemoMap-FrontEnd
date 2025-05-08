@@ -31,7 +31,3 @@ const props = defineProps({
   }
 });
 </script>
-
-<style scoped>
-/* Scoped styles for DonationCenterCard */
-</style>

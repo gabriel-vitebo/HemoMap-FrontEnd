@@ -15,7 +15,3 @@
 <script setup>
 // No specific script needed for AppFooter yet.
 </script>
-
-<style scoped>
-/* Scoped styles for AppFooter */
-</style>

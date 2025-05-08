@@ -7,7 +7,7 @@
           type="radio" 
           :name="props.questionId" 
           :value="true" 
-          class="form-radio h-5 w-5 text-red-600 focus:ring-red-500 border-gray-400" 
+          class="h-5 w-5 text-red-600 focus:ring-red-500 focus:shadow-sm border-gray-400 checked:bg-red-600 checked:border-red-600" 
           @change="updateValue(true)"
         >
         <span class="ml-2 text-gray-700">Sim</span>
@@ -17,7 +17,7 @@
           type="radio" 
           :name="props.questionId" 
           :value="false" 
-          class="form-radio h-5 w-5 text-red-600 focus:ring-red-500 border-gray-400" 
+          class="h-5 w-5 text-red-600 focus:ring-red-500 focus:shadow-sm border-gray-400 checked:bg-red-600 checked:border-red-600" 
           @change="updateValue(false)"
         >
         <span class="ml-2 text-gray-700">Não</span>
@@ -43,14 +43,3 @@ const updateValue = (value) => {
   emit('update:modelValue', value);
 };
 </script>
-
-<style scoped>
-/* Scoped styles for EligibilityQuestion component */
-.form-radio:checked {
-  background-color: #DC2626; /* red-600 */
-  border-color: #DC2626; /* red-600 */
-}
-.form-radio:focus {
-  box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.3); /* focus:ring-red-500 with opacity */
-}
-</style>

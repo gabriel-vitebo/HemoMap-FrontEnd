@@ -23,7 +23,3 @@ defineProps({
 
 const isOpen = ref(false);
 </script>
-
-<style scoped>
-/* Scoped styles for FAQItem component if needed */
-</style>
