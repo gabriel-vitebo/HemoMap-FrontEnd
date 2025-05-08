@@ -34,7 +34,7 @@ const mockHemocenters = [
     contact: '(555) 369-2581',
     latLng: [25.7617, -80.1918], // Miami (example)
   },
-   {
+  {
     id: 'hc5',
     name: 'Peking Union Medical College Hospital Blood Center',
     address: 'No.1 Shuaifuyuan, Dongcheng District, Beijing, China',
@@ -57,7 +57,7 @@ export function useHemocenters() {
   const isLoading = ref(false);
   const error = ref(null);
 
-  const fetchHemocenters = async (userLocation = null) => {
+  const fetchHemocenters = async () => {
     isLoading.value = true;
     error.value = null;
     try {

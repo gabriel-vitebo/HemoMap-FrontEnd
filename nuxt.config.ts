@@ -1,13 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: [
-    // Simple usage
-    // 
-    // Or C:
-    // ["@nuxtjs/tailwindcss", { /* module options */ }]
-    "@nuxtjs/tailwindcss"
-  ],
+  modules: [// Simple usage
+  // 
+  // Or C:
+  // ["@nuxtjs/tailwindcss", { /* module options */ }]
+    "@nuxtjs/tailwindcss", "@nuxt/test-utils", "@nuxt/eslint"],
   css: [
     "~/assets/css/main.css", // Path to your global CSS file
     "leaflet/dist/leaflet.css", // Leaflet CSS for map styling
@@ -30,4 +28,3 @@ export default defineNuxtConfig({
   //   },
   // },
 })
-
