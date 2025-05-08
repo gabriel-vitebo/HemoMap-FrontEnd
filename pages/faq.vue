@@ -1,7 +1,7 @@
 <template>
   <div>
     <AppHeader />
-    <main class="container mx-auto py-8 px-4">
+    <main class="max-w-[900px] mx-auto py-8 px-4">
       <h1 class="text-4xl font-bold mb-8 text-center text-red-600">Perguntas Frequentes (FAQ)</h1>
 
       <div class="space-y-6">
@@ -48,10 +48,3 @@ import AppHeader from '~/components/AppHeader.vue';
 import AppFooter from '~/components/AppFooter.vue';
 import FAQItem from '~/components/FAQItem.vue';
 </script>
-
-<style scoped>
-/* Scoped styles for the FAQ page */
-.container {
-  max-width: 900px;
-}
-</style>

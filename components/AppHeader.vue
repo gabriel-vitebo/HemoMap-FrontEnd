@@ -16,7 +16,3 @@
 <script setup>
 // No specific script needed for AppHeader yet.
 </script>
-
-<style scoped>
-/* Scoped styles for AppHeader */
-</style>

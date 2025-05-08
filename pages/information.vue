@@ -1,7 +1,7 @@
 <template>
   <div>
     <AppHeader />
-    <main class="container mx-auto py-8 px-4">
+    <main class="max-w-[900px] mx-auto py-8 px-4">
       <h1 class="text-4xl font-bold mb-6 text-center text-red-600">Entendendo a Doação de Sangue</h1>
 
       <section class="mb-8 p-6 bg-white shadow-lg rounded-lg">
@@ -29,10 +29,3 @@
 import AppHeader from '~/components/AppHeader.vue';
 import AppFooter from '~/components/AppFooter.vue';
 </script>
-
-<style scoped>
-/* Estilos escopados para a página de informações */
-.container {
-  max-width: 900px;
-}
-</style>
