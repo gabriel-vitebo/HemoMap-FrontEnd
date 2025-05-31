@@ -55,31 +55,16 @@ const LControlZoom = defineAsyncComponent(() => import('@vue-leaflet/vue-leaflet
 
 const map = ref(null);
 const zoom = ref(6);
-const centerMap = ref([39.9042, 116.4074]); // Default to Beijing, will try to use user's location
+const centerMap = ref([-23.1991748,-45.9066664]);
 const mapReady = ref(false);
 
 const { hemocenters, fetchHemocenters } = useHemocenters();
 const selectedCenter = ref(null);
 
-// Using a placeholder for custom marker, will create this later or use a default one.
-// For now, let's ensure Leaflet's default icon works if custom one is not set up.
-// const customMarkerIconUrl = ref("/marker-icon.png"); // Path relative to public directory
-// For simplicity, let's use Leaflet's default icon path if available or rely on its internal default.
-// If using a custom icon, ensure it's in the `public` folder.
-// For now, we'll let Leaflet handle its default icon or we can explicitly set it if needed.
-// It's common to have issues with default icon paths in bundlers, so often explicit import is better.
-// import L from 'leaflet';
-// delete L.Icon.Default.prototype._getIconUrl;
-// L.Icon.Default.mergeOptions({
-//   iconRetinaUrl: require('leaflet/dist/images/marker-icon-2x.png'),
-//   iconUrl: require('leaflet/dist/images/marker-icon.png'),
-//   shadowUrl: require('leaflet/dist/images/marker-shadow.png'),
-// });
-// For Nuxt 3, it's better to place static assets in `public` dir and reference them directly.
-const customMarkerIconUrl = ref("/images/map_marker_icon.png"); // Assuming it's in public/images/
+const customMarkerIconUrl = ref("../assets/images/map_marker_icon.svg");
 
 onMounted(async () => {
-  await fetchHemocenters(); // Fetch mock data
+  await fetchHemocenters();
   mapReady.value = true;
 
   if (navigator.geolocation) {
