@@ -19,7 +19,7 @@
         >
           <l-icon
             :icon-url="customMarkerIconUrl"
-            :icon-size="[32, 32]"
+            :icon-size="[45, 45]"
             :icon-anchor="[16, 32]"
             :popup-anchor="[0, -32]"
           />
@@ -44,7 +44,6 @@ import "leaflet/dist/leaflet.css";
 import DonationCenterCard from '~/components/DonationCenterCard.vue';
 import { useHemocenters } from '~/composables/useHemocenters';
 
-// Dynamically import LMap, LTileLayer, LMarker, LPopup, LIcon, LControlAttribution, LControlZoom only on client-side
 const LMap = defineAsyncComponent(() => import('@vue-leaflet/vue-leaflet').then(module => module.LMap));
 const LTileLayer = defineAsyncComponent(() => import('@vue-leaflet/vue-leaflet').then(module => module.LTileLayer));
 const LMarker = defineAsyncComponent(() => import('@vue-leaflet/vue-leaflet').then(module => module.LMarker));
@@ -61,7 +60,7 @@ const mapReady = ref(false);
 const { hemocenters, fetchHemocenters } = useHemocenters();
 const selectedCenter = ref(null);
 
-const customMarkerIconUrl = ref("../assets/images/map_marker_icon.svg");
+const customMarkerIconUrl = ref("/map_marker_icon.svg");
 
 onMounted(async () => {
   await fetchHemocenters();
@@ -72,14 +71,13 @@ onMounted(async () => {
       (position) => {
         const userLocation = [position.coords.latitude, position.coords.longitude];
         centerMap.value = userLocation;
-        zoom.value = 13; // Zoom in when user location is available
+        zoom.value = 13;
         if (map.value && map.value.leafletObject) {
           map.value.leafletObject.setView(userLocation, 13);
         }
       },
       (error) => {
         console.warn('Error getting user location:', error.message);
-        // Keep default center if location is denied or unavailable
       }
     );
   }
@@ -87,8 +85,6 @@ onMounted(async () => {
 
 const openPopup = (centerData) => {
   selectedCenter.value = centerData;
-  // Vue-Leaflet handles popup opening on marker click automatically when LPopup is a child of LMarker.
-  // If manual control is needed, you'd interact with the marker's leafletObject.
 };
 
 </script>

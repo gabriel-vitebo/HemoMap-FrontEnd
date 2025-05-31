@@ -1,9 +1,18 @@
 <template>
   <div class="p-2 bg-white rounded-lg shadow-md w-full max-w-xs">
     <h3 class="text-lg font-semibold text-red-700 mb-2">{{ props.centerData.name }}</h3>
-    <p class="text-sm text-gray-600 mb-1"><span class="font-medium">Endereço:</span> {{ props.centerData.address }}</p>
-    <p class="text-sm text-gray-600 mb-1"><span class="font-medium">Horários:</span> {{ props.centerData.hours }}</p>
-    <p class="text-sm text-gray-600 mb-3"><span class="font-medium">Contato:</span> {{ props.centerData.contact }}</p>
+    <p class="text-sm text-gray-600 mb-1">
+      <span class="font-medium">Nome:</span> 
+      {{ props.centerData.name }}
+    </p>
+    <p class="text-sm text-gray-600 mb-1">
+      <span class="font-medium">Endereço:</span>
+      {{ props.centerData.address }}
+    </p>
+    <p class="text-sm text-gray-600 mb-3">
+      <span class="font-medium">Contato:</span> 
+      {{ props.centerData.phone }}
+    </p>
     <a 
       :href="`https://www.google.com/maps/search/?api=1&query=${centerData.latLng[0]},${centerData.latLng[1]}`" 
       target="_blank" 
@@ -24,10 +33,14 @@ const props = defineProps({
       id: '',
       name: 'N/A',
       address: 'N/A',
-      hours: 'N/A',
-      contact: 'N/A',
       latLng: [0,0]
     })
   }
+});
+
+import { onMounted } from 'vue';
+
+onMounted(() => {
+  console.log('DonationCenterCard mounted with data:', props.centerData);
 });
 </script>

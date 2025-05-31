@@ -1,7 +1,7 @@
 // scripts/generateHemocentersWithCoords.js
 import fs from 'fs';
 import fetch from 'node-fetch';
-import { hemocentros } from '../data/hemocentros.ts'; // ajuste o caminho conforme a estrutura
+import { hemocentros } from '../data/hemocentros'; // ajuste o caminho conforme a estrutura
 
 const delay = (ms) => new Promise((res) => setTimeout(res, ms));
 

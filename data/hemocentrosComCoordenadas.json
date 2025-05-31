@@ -33,7 +33,10 @@
     "site": "",
     "funcionamento": "3ª, 5ª e 6ª das 7:30/11:30hs",
     "estacionamento": "Não",
-    "latLng": null
+    "latLng": [
+      -22.7466664,
+      -47.3319223
+    ]
   },
   {
     "name": "Hemonúcleo de Araçatuba",
@@ -43,7 +46,10 @@
     "site": "www.hemocentro.fmrp.usp.br",
     "funcionamento": "2ª das 8:00/19:00h, 3ª a 6ª das 8:00/17:00h Sábados das 7:00/12:00h",
     "estacionamento": "Gratuito carro/moto",
-    "latLng": null
+    "latLng": [
+      -21.1929555,
+      -50.4341376
+    ]
   },
   {
     "name": "Hemonúcleo de Araraquara",
@@ -66,7 +72,10 @@
     "site": "www.hra.famema.br/bancosangue",
     "funcionamento": "2ª a Sábado das 7:00/12:00h",
     "estacionamento": "Gratuito carro/moto Rua Dra Ana Barbosa, 631",
-    "latLng": null
+    "latLng": [
+      -22.6601936,
+      -50.412687
+    ]
   },
   {
     "name": "Hemonúcleo de Barretos",
@@ -76,7 +85,10 @@
     "site": "[www.hcancerbarretos.com](https://www.hcancerbarretos.com).br",
     "funcionamento": "2a a 6ª das 7:00/12:00hs Sábados e domingos das 7:00/11:00h",
     "estacionamento": "Gratuito carro/moto",
-    "latLng": null
+    "latLng": [
+      -20.5824604,
+      -48.5714689
+    ]
   },
   {
     "name": "Santa Casa de Batatais",
@@ -99,7 +111,10 @@
     "site": "www.heb.bauru.unesp.br",
     "funcionamento": "Coleta somente Plaquetas por Aférese. Agendar atendimento.",
     "estacionamento": "Gratuito carro/moto",
-    "latLng": null
+    "latLng": [
+      -22.3386743,
+      -49.030547
+    ]
   },
   {
     "name": "Hemonúcleo de Bauru",
@@ -122,7 +137,10 @@
     "site": "",
     "funcionamento": "2ª a 6ª das 7:00/11:30hs e das 14:00/16:00h",
     "estacionamento": "Gratuito moto",
-    "latLng": null
+    "latLng": [
+      -22.3297966,
+      -49.0794404
+    ]
   },
   {
     "name": "Hospital Municipal Bebedouro",
@@ -145,7 +163,10 @@
     "site": "www.hemocentro.fmb.unesp.br",
     "funcionamento": "2ª a 6ª das 7:30/16:30hs Sábado das 7:00/13:00",
     "estacionamento": "Gratuito carro/moto - sujeitos a disponibilidade",
-    "latLng": null
+    "latLng": [
+      -22.8897385,
+      -48.498033
+    ]
   },
   {
     "name": "Centro de Hemoterapia Celular em Medicina de Campinas",
@@ -525,8 +546,8 @@
     "funcionamento": "Seguanda Sexta das 07h:00 às 12h:30",
     "estacionamento": "Gratuito carro - R. das Monções, 72-Centro-São José dos Campos-SP",
     "latLng": [
-      -23.1885092,
-      -45.8823853
+      -23.1873266,
+      -45.8843041
     ]
   },
   {
