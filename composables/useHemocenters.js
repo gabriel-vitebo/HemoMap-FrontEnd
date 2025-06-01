@@ -7,8 +7,20 @@ export function useHemocenters() {
     hemocenters.value = hemocentrosComCoordenadas.filter(center => center.latLng);
   }
 
+  function searchByCity(city) {
+    const normalizedQuery = city.toLowerCase().trim();
+
+    return hemocentrosComCoordenadas.filter(center => {
+      return (
+        center.latLng &&
+        center.city?.toLowerCase().includes(normalizedQuery)
+      );
+    });
+  }
+
   return {
     hemocenters,
     fetchHemocenters,
+    searchByCity
   };
 }

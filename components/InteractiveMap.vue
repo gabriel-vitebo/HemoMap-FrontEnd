@@ -38,8 +38,9 @@
 </template>
 
 <script setup>
-import { ref, onMounted, defineAsyncComponent } from 'vue';
+import { ref, onMounted, defineAsyncComponent, watch } from 'vue';
 import "leaflet/dist/leaflet.css";
+
 
 import DonationCenterCard from '~/components/DonationCenterCard.vue';
 import { useHemocenters } from '~/composables/useHemocenters';
@@ -61,6 +62,22 @@ const { hemocenters, fetchHemocenters } = useHemocenters();
 const selectedCenter = ref(null);
 
 const customMarkerIconUrl = ref("/map_marker_icon.svg");
+
+const props = defineProps({
+  focusedCenter: {
+    type: Object,
+    default: null
+  }
+});
+
+watch(() => props.focusedCenter, (newCenter) => {
+  if (newCenter && map.value && map.value.leafletObject) {
+    const latLng = newCenter.latLng;
+    map.value.leafletObject.setView(latLng, 15, {
+      animate: true
+    });
+  }
+});
 
 onMounted(async () => {
   await fetchHemocenters();
