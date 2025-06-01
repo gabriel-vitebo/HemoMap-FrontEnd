@@ -1,4 +1,5 @@
 import hemocentrosComCoordenadas from '~/data/hemocentrosComCoordenadas.json';
+import { formatCityName } from '~/utils/formatCityName';
 
 export function useHemocenters() {
   const hemocenters = ref([]);
@@ -8,12 +9,12 @@ export function useHemocenters() {
   }
 
   function searchByCity(city) {
-    const normalizedQuery = city.toLowerCase().trim();
+    const normalizedQuery = formatCityName(city);
 
     return hemocentrosComCoordenadas.filter(center => {
       return (
         center.latLng &&
-        center.city?.toLowerCase().includes(normalizedQuery)
+        center.city_formatted?.toLowerCase().includes(normalizedQuery)
       );
     });
   }

@@ -71,13 +71,22 @@ const props = defineProps({
 });
 
 watch(() => props.focusedCenter, (newCenter) => {
-  if (newCenter && map.value && map.value.leafletObject) {
-    const latLng = newCenter.latLng;
-    map.value.leafletObject.setView(latLng, 15, {
+  console.log('FOCUSED CENTER CHANGED:', newCenter);
+
+  if (
+    newCenter &&
+    typeof newCenter.lat === 'number' &&
+    typeof newCenter.lng === 'number' &&
+    map.value &&
+    map.value.leafletObject
+  ) {
+    const latLng = [newCenter.lat, newCenter.lng];
+    map.value.leafletObject.setView(latLng, 13, {
       animate: true
     });
   }
 });
+
 
 onMounted(async () => {
   await fetchHemocenters();

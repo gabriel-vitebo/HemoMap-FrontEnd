@@ -1,7 +1,8 @@
 // scripts/generateHemocentersWithCoords.js
 import fs from 'fs';
 import fetch from 'node-fetch';
-import { hemocentros } from '../data/hemocentros'; // ajuste o caminho conforme a estrutura
+
+const hemocentros = JSON.parse(fs.readFileSync('./data/hemocentros_formatados.json', 'utf-8'));
 
 const delay = (ms) => new Promise((res) => setTimeout(res, ms));
 
@@ -23,7 +24,7 @@ async function generate() {
 
   for (const center of hemocentros) {
     const latLng = await geocodeAddress(center.address || center.name, center.city);
-    await delay(1000); // evita bloqueio por rate-limit da API
+    await delay(1000); // evita rate-limit
 
     result.push({
       ...center,

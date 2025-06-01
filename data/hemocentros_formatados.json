@@ -3,444 +3,324 @@
     "name": "Banco de Sangue e Adamantina",
     "address": "Rua Joaquim Luiz Vian, nº 209-Vila Cicma",
     "city": "Adamantina",
-    "city_formatted": "adamantina",
-    "latLng": [
-      -21.694492,
-      -51.0745074
-    ]
+    "city_formatted": "adamantina"
   },
   {
     "name": "Hospital Municipal de Americana",
     "address": "Avenida da Saúde, 415, Jardim Nossa Senhora de Fátima",
     "city": "Americana",
-    "city_formatted": "americana",
-    "latLng": [
-      -22.7419184,
-      -47.308361
-    ]
+    "city_formatted": "americana"
   },
   {
     "name": "Irmandade de Misericórdia Hospital São Francisco",
     "address": "Praça Francisco Matarazzo, 60 - Santa Catarina",
     "city": "Americana",
-    "city_formatted": "americana",
-    "latLng": null
+    "city_formatted": "americana"
   },
   {
     "name": "Hemonúcleo de Araçatuba",
     "address": "Av. Arthur Ferreira da Costa nº 330 - Aviação",
     "city": "Araçatuba",
-    "city_formatted": "aracatuba",
-    "latLng": null
+    "city_formatted": "aracatuba"
   },
   {
     "name": "Hemonúcleo de Araraquara",
     "address": "Rua Expedicionários do Brasil, 1621- Centro",
     "city": "Araraquara",
-    "city_formatted": "araraquara",
-    "latLng": [
-      -21.7043037,
-      -47.4860459
-    ]
+    "city_formatted": "araraquara"
   },
   {
     "name": "Hemonúcleo de Assis",
     "address": "Praça: Dr Symphronio Alves dos Santos s/n Centro",
     "city": "Assis",
-    "city_formatted": "assis",
-    "latLng": null
+    "city_formatted": "assis"
   },
   {
     "name": "Hemonúcleo de Barretos",
     "address": "Rua Antenor Duarte Vilella, 1331 Bairro Dr. Paulo Prata",
     "city": "Barretos",
-    "city_formatted": "barretos",
-    "latLng": null
+    "city_formatted": "barretos"
   },
   {
     "name": "Santa Casa de Batatais",
     "address": "Rua Dr. Manoel Furtado, 235 -Centro",
     "city": "Batatais",
-    "city_formatted": "batatais",
-    "latLng": [
-      -20.8886705,
-      -47.583603
-    ]
+    "city_formatted": "batatais"
   },
   {
     "name": "Hospital Estadual Bauru",
     "address": "Av. Engenheiro Luis Edmundo Carrijo Coube, 1-100",
     "city": "Bauru",
-    "city_formatted": "bauru",
-    "latLng": null
+    "city_formatted": "bauru"
   },
   {
     "name": "Hemonúcleo de Bauru",
     "address": "Rua Monsenhor Claro, 8-88 Centro",
     "city": "Bauru",
-    "city_formatted": "bauru",
-    "latLng": [
-      -22.3302669,
-      -49.0768417
-    ]
+    "city_formatted": "bauru"
   },
   {
     "name": "Hemonúcleo de Bauru",
     "address": "Rua: Monsenhor Claro, n° 8-88 centro",
     "city": "Bauru",
-    "city_formatted": "bauru",
-    "latLng": null
+    "city_formatted": "bauru"
   },
   {
     "name": "Hospital Municipal Bebedouro",
     "address": "Av.: Raul Furquim, 2010 -Jd. Júlia",
     "city": "Bebedouro",
-    "city_formatted": "bebedouro",
-    "latLng": [
-      -20.944913,
-      -48.4867109
-    ]
+    "city_formatted": "bebedouro"
   },
   {
     "name": "Hemocentro de Botucatu UNESP",
     "address": "Campus UNESP - Faculdade de Medicina - nº.- Distrito de Rubião Júnior",
     "city": "Botucatu",
-    "city_formatted": "botucatu",
-    "latLng": null
+    "city_formatted": "botucatu"
   },
   {
     "name": "Centro de Hemoterapia Celular em Medicina de Campinas",
     "address": "Rua Onze de Agosto, 415 Centro",
     "city": "Campinas",
-    "city_formatted": "campinas",
-    "latLng": [
-      -22.9077889,
-      -47.0658242
-    ]
+    "city_formatted": "campinas"
   },
   {
     "name": "Hemocamp Clínica de Hemoterapia",
     "address": "Rua Irmã Serafina, 259 Centro",
     "city": "Campinas",
-    "city_formatted": "campinas",
-    "latLng": [
-      -22.907898,
-      -47.0545052
-    ]
+    "city_formatted": "campinas"
   },
   {
     "name": "Hemocentro Campinas / Unicamp",
     "address": "hua Canos clayas, 480-Cidade Universitária \"Zeferino Vaz-Barão Geraldo- -SP-CEP: 43009 070",
     "city": "Campinas",
-    "city_formatted": "campinas",
-    "latLng": null
+    "city_formatted": "campinas"
   },
   {
     "name": "Posto de Coleta Mário Gatti",
     "address": "Av: Prefeito Faria Lima, 340-Parque Itália- CEP 13036-901- -SP",
     "city": "Campinas",
-    "city_formatted": "campinas",
-    "latLng": null
+    "city_formatted": "campinas"
   },
   {
     "name": "Posto de Coleta Boldrini",
     "address": "Avenida Dr. Gabriel Porto, 1270- Cidade Universitária.",
     "city": "Campinas",
-    "city_formatted": "campinas",
-    "latLng": null
+    "city_formatted": "campinas"
   },
   {
     "name": "Hemonúcleo de Catanduva",
     "address": "Rua 13 de Maio nº 974 Centro",
     "city": "Catanduva",
-    "city_formatted": "catanduva",
-    "latLng": null
+    "city_formatted": "catanduva"
   },
   {
     "name": "Hospital Municipal de Cubatão",
     "address": "Av: Henry Borden s/n Vila Santa Rosa",
     "city": "Cubatão",
-    "city_formatted": "cubatao",
-    "latLng": null
+    "city_formatted": "cubatao"
   },
   {
     "name": "Hemonúcleo de Fernandópolis",
     "address": "Rua Simão dos Santos Gomes, 266 Jardim Santista",
     "city": "Fernandópolis",
-    "city_formatted": "fernandopolis",
-    "latLng": [
-      -20.2944586,
-      -50.2475902
-    ]
+    "city_formatted": "fernandopolis"
   },
   {
     "name": "Hemonúcleo de Franca",
     "address": "Av. Dr. Hélio Palermo nº 4181 Vila Santa Eugênia",
     "city": "Franca",
-    "city_formatted": "franca",
-    "latLng": [
-      -20.5208968,
-      -47.3813755
-    ]
+    "city_formatted": "franca"
   },
   {
     "name": "Hemonúcleo Regional de Jaú",
     "address": "Rua Dona Silvéria, 150 Centro- Chácara Braz Miraglia-CEP: 17210-080--SP Obs.: Hemonúcleo fica junto ao Hospital Amaral Carvalho",
     "city": "Jaú",
-    "city_formatted": "jau",
-    "latLng": null
+    "city_formatted": "jau"
   },
   {
     "name": "Bioclinica Jundiaí",
     "address": "Rua Senador Fonseca- 1314",
     "city": "Jundiaí",
-    "city_formatted": "jundiai",
-    "latLng": [
-      -23.1896688,
-      -46.8854011
-    ]
+    "city_formatted": "jundiai"
   },
   {
     "name": "Colsan Jundiaí",
     "address": "Rua XV de Novembro 1848, Vila Municipal- -SP",
     "city": "Jundiaí",
-    "city_formatted": "jundiai",
-    "latLng": [
-      -23.1804172,
-      -46.8855601
-    ]
+    "city_formatted": "jundiai"
   },
   {
     "name": "Santa Casa de Limeira",
     "address": "Av: Antonio Ometto,675 Vila Claudia",
     "city": "Limeira",
-    "city_formatted": "limeira",
-    "latLng": [
-      -22.5792733,
-      -47.4005558
-    ]
+    "city_formatted": "limeira"
   },
   {
     "name": "Santa Casa de Lins",
     "address": "Rua Nove de Julho s/n, atrás da Santa Casa",
     "city": "Lins",
-    "city_formatted": "lins",
-    "latLng": null
+    "city_formatted": "lins"
   },
   {
     "name": "Hemocentro de Marília",
     "address": "Rua Lourival Freire, 240 Bairro Fragata",
     "city": "Marília",
-    "city_formatted": "marilia",
-    "latLng": null
+    "city_formatted": "marilia"
   },
   {
     "name": "Santa Casa de Mogi das Cruzes",
     "address": "Rua Barão de Jaceguai, 1148 Centro",
     "city": "Mogi das Cruzes",
-    "city_formatted": "mogi-das-cruzes",
-    "latLng": [
-      -23.5214106,
-      -46.1867092
-    ]
+    "city_formatted": "mogi-das-cruzes"
   },
   {
     "name": "Santa Casa de Olímpia",
     "address": "Rua: Síria, 190 -Centro",
     "city": "Olímpia",
-    "city_formatted": "olimpia",
-    "latLng": null
+    "city_formatted": "olimpia"
   },
   {
     "name": "Banco de Sangue de Ourinhos SS Ltda.",
     "address": "Rua Joaquim de Azevedo 770, Vila Moraes--SP CEP19900-280:",
     "city": "Ourinhos",
-    "city_formatted": "ourinhos",
-    "latLng": null
+    "city_formatted": "ourinhos"
   },
   {
     "name": "Hemonúcleo de Piracicaba",
     "address": "Avenida. Independência, 953, Centro- CEP: 13419-155--SP",
     "city": "Piracicaba",
-    "city_formatted": "piracicaba",
-    "latLng": null
+    "city_formatted": "piracicaba"
   },
   {
     "name": "Hospital Regional de Presidente Prudente",
     "address": "Rua José Bongiovani, 1297 Cidade Universitária",
     "city": "Presidente Prudente",
-    "city_formatted": "presidente-prudente",
-    "latLng": [
-      -22.1328072,
-      -51.4079313
-    ]
+    "city_formatted": "presidente-prudente"
   },
   {
     "name": "Hemonúcleo de Presidente Prudente",
     "address": "Rua Wenceslau Braz nº 05-Vila Euclides",
     "city": "Presidente Prudente",
-    "city_formatted": "presidente-prudente",
-    "latLng": null
+    "city_formatted": "presidente-prudente"
   },
   {
     "name": "Hemonúcleo de Presidente Pru- dente",
     "address": "Rua Wenceslau Braz nº 05-Vila Euclides",
     "city": "Presidente Prudente",
-    "city_formatted": "presidente-prudente",
-    "latLng": null
+    "city_formatted": "presidente-prudente"
   },
   {
     "name": "Banco de Sangue Ribeirão Preto",
     "address": "Rua Quintino Bocaiúva, 895-Vila Seixas",
     "city": "Ribeirão Preto",
-    "city_formatted": "ribeirao-preto",
-    "latLng": [
-      -21.182859,
-      -47.8076664
-    ]
+    "city_formatted": "ribeirao-preto"
   },
   {
     "name": "São Francisco Hemoterapia",
     "address": "Rua Quintino Bocaiúva, 248-Higienópolis",
     "city": "Ribeirão Preto",
-    "city_formatted": "ribeirao-preto",
-    "latLng": null
+    "city_formatted": "ribeirao-preto"
   },
   {
     "name": "Hemocentro Ribeirão Preto",
     "address": "Rua: Tenente Catão Roxo, 2501 -Monte alegre",
     "city": "Ribeirão Preto",
-    "city_formatted": "ribeirao-preto",
-    "latLng": [
-      -21.1616868,
-      -47.8478919
-    ]
+    "city_formatted": "ribeirao-preto"
   },
   {
     "name": "Hemocentro Ribeirão Preto",
     "address": "Rua: Quintino Bocaiúva, 470 -Centro",
     "city": "Ribeirão Preto",
-    "city_formatted": "ribeirao-preto",
-    "latLng": [
-      -21.1868117,
-      -47.8080016
-    ]
+    "city_formatted": "ribeirao-preto"
   },
   {
     "name": "Hospital Ana Costa",
     "address": "Rua Amazonas, 143- Campo Grande--SP",
     "city": "Santos",
-    "city_formatted": "santos",
-    "latLng": [
-      -23.9557446,
-      -46.3338156
-    ]
+    "city_formatted": "santos"
   },
   {
     "name": "Irmandade da Santa Casa de Misericórdia de Santos",
     "address": "Rua DR. Cláudio Luiz da Costa nº 50-CEP: 11075-900 Jabaquara",
     "city": "Santos",
-    "city_formatted": "santos",
-    "latLng": null
+    "city_formatted": "santos"
   },
   {
     "name": "Núcleo de Hematologia e Hemoterapia de Santos",
     "address": "Rua Oswaldo Cruz, 197 Boqueirão--SP- CEP: 11045-904",
     "city": "Santos",
-    "city_formatted": "santos",
-    "latLng": null
+    "city_formatted": "santos"
   },
   {
     "name": "Santa Casa de São Carlos",
     "address": "Rua Paulino botelho de Abreu Sampaio, nº 573, Vila Pureza.",
     "city": "São Carlos",
-    "city_formatted": "sao-carlos",
-    "latLng": null
+    "city_formatted": "sao-carlos"
   },
   {
     "name": "Beneficencia Portuguesa SJRP",
     "address": "Rua Luiz Vaz de Camões 3236 - Redentora Prédio de Vidro Sub-solo1",
     "city": "São José do Rio Preto",
-    "city_formatted": "sao-jose-do-rio-preto",
-    "latLng": null
+    "city_formatted": "sao-jose-do-rio-preto"
   },
   {
     "name": "Hemocentro de São José do Rio Preto",
     "address": "Avenida Jamil Feres Kfuri nº 80-Jd. Panorama",
     "city": "São José do Rio Preto",
-    "city_formatted": "sao-jose-do-rio-preto",
-    "latLng": null
+    "city_formatted": "sao-jose-do-rio-preto"
   },
   {
     "name": "Hemovalle",
     "address": "Rua: Santa Clara, nº 450-Vila Adyanna- -SP-CEP: 12243-630",
     "city": "São José dos Campos",
-    "city_formatted": "sao-jose-dos-campos",
-    "latLng": null
+    "city_formatted": "sao-jose-dos-campos"
   },
   {
     "name": "Serviço de Hemoteraia de São José dos Campos",
     "address": "Rua Antonio Saes, 425 Centro- -SP",
     "city": "São José dos Campos",
-    "city_formatted": "sao-jose-dos-campos",
-    "latLng": [
-      -23.1885092,
-      -45.8823853
-    ]
+    "city_formatted": "sao-jose-dos-campos"
   },
   {
     "name": "Hospital São José- Santa Casa de São Vicente",
     "address": "R: Frei Gaspar nº 790, Centro",
     "city": "São Vicente",
-    "city_formatted": "sao-vicente",
-    "latLng": null
+    "city_formatted": "sao-vicente"
   },
   {
     "name": "Unidade do HemocentroRP Cidade Serrana",
     "address": "R: Nossa Senhora Dores, 741 Centro",
     "city": "Serrana",
-    "city_formatted": "serrana",
-    "latLng": null
+    "city_formatted": "serrana"
   },
   {
     "name": "Hemonúcleo Sorocaba- Colsan",
     "address": "Rua Comendador Pereira Inácio, 564, Lajeado--SP",
     "city": "Sorocaba",
-    "city_formatted": "sorocaba",
-    "latLng": null
+    "city_formatted": "sorocaba"
   },
   {
     "name": "Posto de Coleta Sumaré",
     "address": "Avenida da Amizade, 2400- Jardim Bela Vista CEP: 13175-646- -SP",
     "city": "Sumaré",
-    "city_formatted": "sumare",
-    "latLng": null
+    "city_formatted": "sumare"
   },
   {
     "name": "Banco de Sangue Tatuí",
     "address": "(R. Maneco Pereira 299, centro, , CEP 18.270-400.",
     "city": "Tatuí",
-    "city_formatted": "tatui",
-    "latLng": null
+    "city_formatted": "tatui"
   },
   {
     "name": "Núcleo de Hemoterapia de Taubaté",
     "address": "Rua Inglaterra, 190- Jardim das Nações--SP",
     "city": "Taubaté",
-    "city_formatted": "taubate",
-    "latLng": [
-      -23.0313058,
-      -45.5706154
-    ]
+    "city_formatted": "taubate"
   },
   {
     "name": "Santa Casa de Tupā",
     "address": "Rua Manoel Ferreira Damião, 426",
     "city": "Tupā",
-    "city_formatted": "tupa",
-    "latLng": [
-      -21.9239111,
-      -50.5180547
-    ]
+    "city_formatted": "tupa"
   }
 ]

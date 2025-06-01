@@ -45,7 +45,7 @@
               <li>{{ center.city }}</li>
             </ul>
             <button
-              class="ml-2 bg-red-600 text-white px-4 py-2 rounded" 
+              class="mt-2 bg-red-600 text-white px-4 py-2 rounded" 
               @click="selectedHemocenter = center"
             >
               Ver no Mapa
@@ -72,11 +72,20 @@ const selectedHemocenter = ref(null);
 
 function handleSearch() {
   if (searchQuery.value.trim()) {
-    filteredResults.value = searchByCity(searchQuery.value);
-    console.log('Resultados encontrados:', filteredResults.value);
-    // Você pode emitir esses resultados para o mapa ou manipulá-los da forma que quiser
+    const results = searchByCity(searchQuery.value);
+    filteredResults.value = results;
+
+    if (results.length > 0) {
+      selectedHemocenter.value = {
+        lat: results[0].latLng[0],
+        lng: results[0].latLng[1]
+      };
+    }
   } else {
     filteredResults.value = [];
+    selectedHemocenter.value = null;
   }
 }
+
+
 </script>
