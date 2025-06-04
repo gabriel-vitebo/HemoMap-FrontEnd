@@ -1,10 +1,10 @@
 <template>
   <NuxtLayout>
     <NuxtPage />
+    <ChatBot />
   </NuxtLayout>
 </template>
 
 <script setup>
-// This is the main app component, it uses the default layout
-// and renders the current page.
+import ChatBot from '~/components/ChatBot.vue'
 </script>
