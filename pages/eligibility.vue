@@ -82,6 +82,14 @@ import AppHeader from '~/components/AppHeader.vue';
 import AppFooter from '~/components/AppFooter.vue';
 import EligibilityQuestion from '~/components/EligibilityQuestion.vue';
 import { useEligibility } from '~/composables/useEligibility';
+import { useRoute } from 'vue-router'
+import { useHead } from '@unhead/vue'
+
+const route = useRoute()
+
+useHead({
+  title: `HemoMap - ${route.name?.toString() || 'Página'}`
+})
 
 const answers = reactive({
   age: null,

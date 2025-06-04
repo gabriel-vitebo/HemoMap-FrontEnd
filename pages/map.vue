@@ -63,6 +63,14 @@
 import AppHeader from '~/components/AppHeader.vue';
 import AppFooter from '~/components/AppFooter.vue'
 import InteractiveMap from '~/components/InteractiveMap.vue';
+import { useRoute } from 'vue-router'
+import { useHead } from '@unhead/vue'
+
+const route = useRoute()
+
+useHead({
+  title: `HemoMap - ${route.name?.toString() || 'Página'}`
+})
 
 const searchQuery = ref('');
 const filteredResults = ref([]);

@@ -24,8 +24,15 @@
 </template>
 
 <script setup>
-// Nenhum script específico necessário para esta página informativa estática ainda.
-// Podemos adicionar elementos reativos ou busca de dados no futuro.
 import AppHeader from '~/components/AppHeader.vue';
 import AppFooter from '~/components/AppFooter.vue';
+
+import { useRoute } from 'vue-router'
+import { useHead } from '@unhead/vue'
+
+const route = useRoute()
+
+useHead({
+  title: `HemoMap - ${route.name?.toString() || 'Página'}`
+})
 </script>
