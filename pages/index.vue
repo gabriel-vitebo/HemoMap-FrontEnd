@@ -1,6 +1,7 @@
 <template>
-  <AppHeader />
-  <main class="max-w-[900px] mx-auto py-12 px-4 space-y-12">
+  <div>
+    <AppHeader />
+    <main class="max-w-[900px] mx-auto py-12 px-4 space-y-12">
     <section class="text-center">
       <h1 class="text-4xl font-bold text-red-700 mb-4">Bem-vindo ao HemoMap</h1>
       <p class="text-lg text-gray-700">
@@ -48,19 +49,26 @@
           Abrir Mapa
         </NuxtLink>
       </div>
+
+      <div class="p-6 border border-gray-200 rounded-2xl shadow-sm">
+        <h2 class="text-2xl font-semibold text-red-600 mb-2">Encontre um Local de Doação</h2>
+        <p class="text-gray-700 mb-4">
+          Utilize nosso mapa interativo para localizar hemocentros próximos e planejar sua doação com facilidade.
+        </p>
+        <a href="https://wa.link/jrwfua" target="_blank"  class="inline-block bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-700 w-full transition">
+        Fale conosco via WhatsApp
+        </a>
+      </div>
     </section>
-  </main>
+    </main>
   <AppFooter />
+  </div>
 </template>
 
 <script setup>
 import AppHeader from '~/components/AppHeader.vue';
 import AppFooter from '~/components/AppFooter.vue';
-import { useRoute } from 'vue-router'
 import { useHead } from '@unhead/vue'
-
-const route = useRoute()
-
 useHead({
   title: `HemoMap - Início`
 })
