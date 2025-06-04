@@ -6,35 +6,35 @@ export function useEligibility() {
   const criteria = {
     age: {
       eligibleValue: true,
-      ineligibilityMessage: 'You must be between 18 and 65 years old to donate.',
+      ineligibilityMessage: 'Você deve ter entre 18 e 65 anos para doar.',
     },
     weight: {
       eligibleValue: true,
-      ineligibilityMessage: 'You must weigh at least 110 pounds (50 kg) to donate.',
+      ineligibilityMessage: 'Você deve pesar pelo menos 50 kg para doar.',
     },
     health: {
       eligibleValue: true,
-      ineligibilityMessage: 'You must be in good general health and feeling well on the day of donation.',
+      ineligibilityMessage: 'Você deve estar em boas condições de saúde e se sentindo bem no dia da doação.',
     },
     recent_illness: {
-      eligibleValue: false, // A 'yes' to illness makes ineligible
-      ineligibilityMessage: 'You should not donate if you have had a recent illness like a cold, flu, or fever.',
+      eligibleValue: false,
+      ineligibilityMessage: 'Você não deve doar se teve doença recente como resfriado, gripe ou febre.',
     },
     recent_tattoo_piercing: {
-      eligibleValue: false, // A 'yes' to recent tattoo/piercing from unregulated place makes ineligible
-      ineligibilityMessage: 'A recent tattoo, piercing, or acupuncture from an unregulated facility may require a deferral period.',
+      eligibleValue: false,
+      ineligibilityMessage: 'Tatuagem, piercing ou acupuntura recente em local não regulamentado pode exigir um período de espera.',
     },
     recent_travel: {
-      eligibleValue: false, // A 'yes' to recent travel to risk areas makes ineligible
-      ineligibilityMessage: 'Travel to certain malaria-risk areas may require a deferral period. Please check with the donation center.',
+      eligibleValue: false,
+      ineligibilityMessage: 'Viagens para áreas com risco de malária podem exigir um período de espera. Consulte o centro de doação.',
     },
     medications: {
-      eligibleValue: false, // A 'yes' to certain medications makes ineligible
-      ineligibilityMessage: 'Certain medications, such as some antibiotics or blood thinners, can make you ineligible to donate. Please consult the donation center.',
+      eligibleValue: false,
+      ineligibilityMessage: 'Certos medicamentos, como alguns antibióticos ou anticoagulantes, podem impedir a doação. Consulte o centro de doação.',
     },
     hiv_risk: {
-      eligibleValue: false, // A 'yes' to HIV risk makes ineligible
-      ineligibilityMessage: 'If you have ever tested positive for HIV or engaged in high-risk activities, you are not eligible to donate blood.',
+      eligibleValue: false,
+      ineligibilityMessage: 'Se você já testou positivo para HIV ou participou de atividades de alto risco, não está apto a doar sangue.',
     },
   };
 
@@ -46,8 +46,8 @@ export function useEligibility() {
       if (answers[key] === null) {
         eligibilityResult.value = {
           eligible: false,
-          title: 'Incomplete Information',
-          message: 'Please answer all questions to check your preliminary eligibility.',
+          title: 'Informações Incompletas',
+          message: 'Por favor, responda a todas as perguntas para verificar sua elegibilidade preliminar.',
           reasons: [],
         };
         return;
@@ -62,15 +62,15 @@ export function useEligibility() {
     if (isEligible) {
       eligibilityResult.value = {
         eligible: true,
-        title: 'Potentially Eligible!',
-        message: 'Based on your answers, you may be eligible to donate blood. A final determination will be made by the staff at the donation center. Thank you for considering this life-saving act!',
+        title: 'Potencialmente Elegível!',
+        message: 'Com base em suas respostas, você pode estar elegível para doar sangue. Uma determinação final será feita pela equipe do centro de doação. Obrigado por considerar este ato que salva vidas!',
         reasons: [],
       };
     } else {
       eligibilityResult.value = {
         eligible: false,
-        title: 'Potentially Deferred',
-        message: 'Based on your answers, you may be deferred from donating blood at this time. This is a preliminary assessment. We recommend discussing these points with staff at a donation center for clarification and to understand any specific deferral periods.',
+        title: 'Potencialmente Adiado',
+        message: 'Com base em suas respostas, você pode ser adiado para doar sangue neste momento. Esta é uma avaliação preliminar. Recomendamos discutir esses pontos com a equipe de um centro de doação para esclarecimentos e para entender quaisquer períodos de adiamento específicos.',
         reasons: reasonsForDeferral,
       };
     }
