@@ -1,7 +1,10 @@
 <template>
   <header class="bg-red-600 text-white p-4 shadow-md">
     <nav class="container mx-auto flex justify-between items-center">
-      <NuxtLink to="/" class="text-2xl font-bold hover:text-red-200 transition-colors">HemoMap</NuxtLink>
+      <NuxtLink to="/" class="text-2xl font-bold hover:text-red-200 transition-colors">
+        <img src="/logo.png" alt="HemoMap Logo" class="inline-block h-12 w-12 mr-2 rounded-full ">
+        HemoMap
+      </NuxtLink>
       <ul class="flex space-x-6">
         <li><NuxtLink to="/" class="hover:text-red-200 transition-colors">Início</NuxtLink></li>
         <li><NuxtLink to="/information" class="hover:text-red-200 transition-colors">Por que Doar?</NuxtLink></li>
