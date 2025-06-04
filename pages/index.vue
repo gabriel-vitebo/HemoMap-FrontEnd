@@ -51,9 +51,9 @@
       </div>
 
       <div class="p-6 border border-gray-200 rounded-2xl shadow-sm">
-        <h2 class="text-2xl font-semibold text-red-600 mb-2">Encontre um Local de Doação</h2>
+        <h2 class="text-2xl font-semibold text-red-600 mb-2">Fale com a gente</h2>
         <p class="text-gray-700 mb-4">
-          Utilize nosso mapa interativo para localizar hemocentros próximos e planejar sua doação com facilidade.
+          Utilize nosso WhatsApp para tirar dúvidas, receber orientações e obter informações sobre doação de sangue.
         </p>
         <a href="https://wa.link/jrwfua" target="_blank"  class="inline-block bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-700 w-full transition">
         Fale conosco via WhatsApp
